@@ -1,0 +1,10 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+wrangler.toml
+.github/*
+
+# Build directory
+/public
+.DS_Store
