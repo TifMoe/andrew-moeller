@@ -6,14 +6,12 @@ import headshot from '../images/andrew_moeller.jpg'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="content">
-      <div className="inner">
-        <span className="image circle left">
+        <div className="logo">
             <img src={headshot} alt="" />
-        </span>
-        <div classNaame="inner center">
+        </div>
+      <div className="inner">
           <h1>Andrew Moeller</h1>
           <p>Twentieth centry British historian specializing in intellectual and religious history</p>
-        </div>
       </div>
     </div>
     <nav>
